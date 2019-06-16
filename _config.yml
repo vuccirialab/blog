@@ -1,0 +1,23 @@
+title:              Vuccirialab
+email:              your-email@example.com
+description:        Il laboratorio d'innovazione sociale della Vucciria!
+author:             Start Bootstrap
+baseurl:            "/blog"
+url:                ""
+
+# Social Profiles
+facebook_username:  StartBootstrap
+instagram_unsername: vuccirialab
+github_username:    BlackrockDigital
+
+# Add your google-analytics ID here to activate google analytics
+google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
